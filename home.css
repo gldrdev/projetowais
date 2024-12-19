@@ -1,0 +1,155 @@
+/* Configurações gerais */
+body {
+    font-family: Georgia;
+    margin: 0;
+    display: flex;
+}
+
+/* Estilização da barra lateral */
+.sidebar {
+    width: 175px;
+    background-color: rgb(145, 248, 176);
+    color: #161212;
+    height: 100vh;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(204, 12, 12, 0.2);
+    position: fixed;
+}
+
+/* Botão dropdown */
+.dropdown-btn {
+    background-color: rgb(145, 248, 176);
+    color: rgb(24, 17, 17);
+    border: none;
+    padding: 50px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+/* Container dropdown */
+.dropdown-container {
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.dropdown-container a {
+    padding: 8px 10px;
+    text-decoration: none;
+    color: rgb(15, 13, 13);
+    display: block;
+    border-bottom: 1px solid #5E5C5D;
+}
+
+.dropdown-container a:hover {
+    background-color: #5fa5f5;
+}
+
+/* Conteúdo principal */
+.main-content {
+    margin-left: 260px;
+    padding: 5%;
+    align-items: right ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large ; 
+    align-content: space-evenly;  
+}
+#logoWais {
+    width:250px;
+    height: 150px;
+}
+#logoMamute {
+    width: 150px;
+    height: 150px;
+}
+#logoCalhas {
+    width: 150px;
+    height: 150px;
+}
+#logoPavao {
+    width: 250px;
+    height: 150px;
+}
+
+
+/*Conteúdo Top Bar */
+.top-bar {
+    background-color: #dce2bc;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.user-options a {
+    color:#2dc2dc; 
+    text-decoration: none;
+}
+.user-options a:hover {
+    color: blue;
+}
+.emailSistema a {
+    color: green;
+    text-decoration: none;
+    size-adjust: 10px;
+}
+.emailSistema a:hover {
+    color:blue;
+}
+
+/*Estilização Previsão do tempo*/
+.previsaoTempo {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      
+      .container {
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      input {
+        padding: 10px;
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      button {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+      
+      button:hover {
+        background-color: #45a049;
+      }
+      
+      #weather-info {
+        margin-top: 20px;
+      }
+      
+      #weather-info h2, #weather-info p {
+        margin: 5px;
+        color: #333;
+      }
+}
+.subMenuGestao {
+ font-family: 'Courier New', Courier, monospace;   
+}
+
