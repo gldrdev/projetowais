@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="home.css">
+   <script src="home.js"></script>
+</head>
+<body>
+<!-- Menu navegação lateral dropdown-->
+    <div class="sidebar">
+        <button class="dropdown-btn"><img src="../imagens/menu_30dp_B7B7B7_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="Menu Principal" title="Menu Principal"></button>
+        <div class="dropdown-container">
+            <a href="../html/gestao/ges">Gestão</a>
+            <a href="administrativo"> Administrativo</a>
+            <a href="#Financeiro">Financeiro</a>
+            <a href="#RecursosHumanos">Recursos Humanos</a>
+            <a href="#Clientes">Clientes</a>
+            <a href="#Produtos">Produtos</a>
+            <a href="#Serviços">Serviços</a>
+            <a href="#Produção">Produção</a>
+            <a href="#Execução">Execução</a> 
+            <a href="#Estoque">Estoque</a>
+            <a href="#Aplicativo">Aplicativo</a>
+            <a href="#ChatBot">ChatBot</a>
+        </div>
+    </div>
+        <div class="emailSistema">
+            <a href="geovaniluizdarosa@waisindustria.com"><img src="../../SISTEMA/imagens/mail_30dp_B7B7B7_FILL0_wght400_GRAD0_opsz24.svg"></a>
+        </div>
+        <div class="user-options">
+            <a href="#">
+                <img src="../imagens/settings_30dp_B7B7B7_FILL0_wght400_GRAD0_opsz24.svg">
+            </a> <br>
+            <a href="#">
+                <img src="../imagens/logout_30dp_B7B7B7_FILL0_wght400_GRAD0_opsz24.svg">
+            </a>
+        </div>
+
+       
+    </div>
+<!-- Conteúdo principal da página-->
+    <header>
+  <div class="main-content">
+        <img src="../imagens/CALHAS.jpg" id="logoCalhas" alt="Logo Calhas Nova" title="Logo Calhas Nova">
+        <img src="../imagens/b8259a3b-644c-4896-9eb7-4afc502e7fa2.jpg" id="logoMamute" alt="Logo Mamute Serralheria" title="Logo Mamute">
+        <img src="../imagens/Blue Modern Simple Logo.png" alt="Logo Wais" id="logoWais" title="Logo Wais">
+        <img src="../imagens/logopavao.png" alt="Logo Pavão Pintura Eletrostática" id="logoPavao" title="Logo Pavao Pintura Eletrostática">
+        <h1 id="bvhome">WEB WAIS SISTEMA INTEGRADO</h1><hr>
+        <p>Ola, usuário seja bem vindo ao sistema integrado de gestão</em></p>
+        
+    </div>
+    </header>
+
+    <!-- Conteúdo do top bar, que ficou alinhado na direita-->
+<div clas="top-bar">
+    <div class="previsaoTempo">
+        <h1>Clima ao Vivo 🌍</h1>
+        <input type="text" id="city" placeholder="Digite o nome da cidade">
+        <button onclick="getWeather()">Buscar Clima</button>
+  
+        <div id="weather-info">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+        </div>
+     
+    </div>
+    <br>
+  
+
+</div>
+    
+ 
+</body>
+</html>
