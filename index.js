@@ -10,7 +10,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
       document.getElementById("loginMessage").style.color = "green";
       // Redirecionar ou carregar conteúdo
       setTimeout(() => {
-        window.location.href = "home.html";
+        window.location.href = "./home.html";
       }, 1000);
     } else {
       document.getElementById("loginMessage").textContent = "Usuário ou senha incorretos!";
